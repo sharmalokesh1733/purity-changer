@@ -14,18 +14,18 @@
         <p>Total Purity : <span style="color: red;" id="pureValue">0</span></p>
         <p>Total Weight : <span style="color: red;" id="tweight">0</span> gm </p>
 
-        <div class="d-flex flex-row justify-content-between w-100 px-5 py-2 ">
-            <input type="number" id="weight" placeholder="Enter Weight..." class="w-50 px-2 rounded border" style="height: 44px;"/>
-            <input type="number" id="purity" placeholder="Enter Purity..." class="w-25 px-2 rounded border" style="height: 44px;"/>
-            <button class="btn btn-success" id="addbtn">Add</button>
+        <div class="d-flex flex-column w-100 px-2 py-2 ">
+            <input type="number" id="weight" placeholder="Enter Weight..." class="w-100 px-2 rounded border" style="height: 44px;"/>
+            <input type="number" id="purity" placeholder="Enter Purity..." class="w-100 px-2 rounded border mt-2" style="height: 44px;"/>
+            <button class="btn btn-success mt-2" id="addbtn">Add</button>
         </div>
 
         <hr class="mt-5">
 
 
-        <div class="d-flex flex-row justify-content-between w-100 px-5 py-2 ">
-            <input type="number" id="want" placeholder="Enter purity..." class="w-50 px-2 rounded border" style="height: 44px;"/>
-            <button id="submit" class="btn btn-success">Calculate</button>
+        <div class="d-flex flex-column justify-content-between w-100 px-2 py-2 ">
+            <input type="number" id="want" placeholder="Enter purity you want..." class="w-100 rounded border" style="height: 44px;"/>
+            <button id="submit" class="btn btn-success mt-2">Calculate</button>
         </div>
 
         <h3 class="mt-5" id="finalResult"></h3>
