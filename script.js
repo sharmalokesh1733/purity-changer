@@ -35,12 +35,12 @@ function calculateValue() {
 
     if (res > 0) {
         const result = document.getElementById('finalResult')
-        result.innerHTML = res + " gm Copper";
+        result.innerHTML = res.toFixed(2) + " gm Copper";
         result.style.color = '#198754';
     }
     else if (res < 0) {
         const result = document.getElementById('finalResult');
-        result.innerHTML = Math.abs(res) + " gm Silver";
+        result.innerHTML = Math.abs(res.toFixed(2)) + " gm Silver";
         result.style.color = 'red';
     }
 }
